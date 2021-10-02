@@ -31,7 +31,6 @@ body {
   position: absolute;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: center;
   right: 35px;
   flex-direction: row;
@@ -70,8 +69,6 @@ body {
 .about1 {
   /* About */
 
-  height: 440px;
-  width: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -471,7 +468,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   margin-top: 5em;
   margin-left: 3em;
 
@@ -482,7 +478,6 @@ body {
   /* Neutrals/N40 */
 
   border: 1px solid #dfe1e6;
-
   border-radius: 24px;
 }
 
@@ -553,14 +548,11 @@ body {
   font-size: 13px;
   line-height: 16px;
 
-  /* identical to box height, or 123% 
+  /* identical to box height, or 123% */
 
-/* Neutrals/N100 */
+  /* Neutrals/N100 */
 
   color: #7a869a;
-
-  /* Inside Auto Layout */
-
   flex: none;
   margin: 0.2px 0.2px;
 }
@@ -595,41 +587,22 @@ body {
 }
 
 .paragraph {
-  /* Primary Text */
-
-  display: flex;
-  width: 496px;
-  height: 50px;
-  left: 26px;
-  top: 100px;
-
-  /* Body / 2 */
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
-
-  /* Neutrals/N600 */
-
-  color: #344563;
-
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 24px 0px;
-}
-
-.paragraph {
   display: flex;
   flex-direction: row;
   align-content: center;
   flex-wrap: wrap;
   width: 350px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+
+  /* Neutrals/N600 */
+
+  color: #344563;
 }
 
 .butto {
@@ -637,7 +610,6 @@ body {
 
   /* Auto Layout */
 
-  display: flex;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -748,12 +720,12 @@ body {
   position: absolute;
   width: 145px;
   height: 40px;
-  left: 35em;
+  left: 37em;
   text-align: center;
 
   /* Primary/B400 */
 
-  top: 75.5em;
+  top: 76.5em;
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
@@ -797,7 +769,6 @@ body {
   /* Neutrals/N40 */
 
   border: 1px solid #dfe1e6;
-
   border-radius: 24px;
 }
 
@@ -860,9 +831,9 @@ body {
   font-size: 13px;
   line-height: 16px;
 
-  /* identical to box height, or 123% 
+  /* identical to box height, or 123% */
 
-/* Neutrals/N100 */
+  /* Neutrals/N100 */
 
   color: #7a869a;
 
@@ -907,12 +878,12 @@ body {
   position: absolute;
   width: 145px;
   height: 40px;
-  left: 7em;
+  left: 6em;
   text-align: center;
 
   /* Primary/B400 */
 
-  top: 105.5em;
+  top: 106.5em;
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
@@ -951,7 +922,7 @@ body {
 
   /* Primary/B400 */
 
-  top: 140.5em;
+  top: 141.5em;
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
@@ -986,9 +957,9 @@ body {
   font-size: 13px;
   line-height: 16px;
 
-  /* identical to box height, or 123% 
+  /* identical to box height, or 123% */
 
-/* Neutrals/N100 */
+  /* Neutrals/N100 */
 
   color: #7a869a;
 
@@ -1009,7 +980,7 @@ body {
 
   /* Primary/B400 */
 
-  top: 170.5em;
+  top: 172.5em;
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
@@ -1022,8 +993,6 @@ body {
   flex-direction: column;
   align-content: center;
   height: 600px;
-
-  flex-direction: column;
   margin-top: 5em;
 
   /* Neutrals/N0 */
@@ -1033,7 +1002,6 @@ body {
   /* Neutrals/N40 */
 
   border: 1px solid #dfe1e6;
-
   border-radius: 24px;
 }
 
@@ -1112,7 +1080,6 @@ body {
 
 .twitter2 {
   position: absolute;
-  left: 6.4%;
   right: 100.27%;
   top: 214.3em;
   left: 10em;
@@ -1120,7 +1087,6 @@ body {
 
 .linked1 {
   position: absolute;
-  left: 6.4%;
   right: 100.27%;
   top: 214em;
   left: 5.7em;
@@ -1130,7 +1096,6 @@ body {
 
 .linked2 {
   position: absolute;
-  left: 6.4%;
   right: 100.27%;
   top: 214em;
   left: 5.2em;
@@ -1140,7 +1105,6 @@ body {
 
 .medium2 {
   position: absolute;
-  left: 6.4%;
   right: 100.27%;
   top: 214em;
   left: 13.5em;
@@ -1150,7 +1114,6 @@ body {
 
 .github2 {
   position: absolute;
-  left: 6.4%;
   right: 100.27%;
   top: 214em;
   left: 3em;
@@ -1160,7 +1123,6 @@ body {
 
 .angellist2 {
   position: absolute;
-  left: 6.4%;
   right: 100.27%;
   top: 214em;
   left: 8em;
@@ -1172,6 +1134,7 @@ body {
   margin-left: 1em;
   padding-top: 1em;
 }
+
 .flex-botu {
   display: flex;
   width: 160px;
@@ -1243,8 +1206,6 @@ body {
   height: 200px;
   top: 10px;
   margin-left: 20em;
-
-  /* Inside Auto Layout */
 }
 
 .vector-1 {
@@ -1417,7 +1378,7 @@ body {
   width: 100%;
   height: 1000px;
   left: 1em;
-  top: 221em;
+  top: 223em;
 
   /* Primary/B400 */
 
@@ -1476,7 +1437,7 @@ body {
 
   flex: none;
   order: 1;
-  flex-grow: 0;
+  flex-grow: 1;
   margin: 12px 0px;
 }
 
