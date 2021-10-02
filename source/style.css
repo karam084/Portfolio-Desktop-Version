@@ -458,7 +458,7 @@ body {
   bottom: 5.87%;
 }
 
-.work-section {
+.work-section, .work-section2 {
   height: 440px;
   width: 900px;
   display: flex;
@@ -479,7 +479,7 @@ body {
   border-radius: 24px;
 }
 
-.snap-img {
+.snap-img, .snap-img2 {
   /* Snapshoot Portfolio */
   display: flex;
   padding-left: 1em;
@@ -590,7 +590,7 @@ body {
   display: flex;
   width: 496px;
   height: 50px;
-  left: 24px;
+  left: 26px;
   top: 100px;
 
   /* Body / 2 */
@@ -735,7 +735,7 @@ body {
   position: absolute;
   width: 145px;
   height: 40px;
-  left: 38em;
+  left: 35em;
   text-align: center;
 
   /* Primary/B400 */
@@ -906,16 +906,42 @@ margin: 0.2px 0.2px;
   color: #396df2;
 }
 
-.third-img {
-  /* Snapshoot Portfolio */ /*
+.Facebook360{
+   /* Project Title */
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-content: center;
+   text-align: start;
+   margin-left: 1.5em;
+}
 
-  position: static;
-  width: 295px;
-  height: 200px;
-  left: 16px;
-  top: 20px;
-  background: url(snapshoot-3.png);
+.de-comp1{
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  padding-top: 0.05em;
+  padding-left: 2em;
+  gap: 2em;
+}
+
+.see-proj2{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 145px;
+  height: 40px;
+  left: 35em;
+  text-align: center;
+
+  /* Primary/B400 */
+
+  top: 140.5em;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
   border-radius: 8px;
+  list-style: none;
+  color: #396df2;
 }
 
 .fourth-img {
