@@ -1250,7 +1250,6 @@ body {
   /* Frame 10 */
 
   display: flex;
-
   width: 50px;
   height: 66.72px;
   left: 12px;
@@ -1438,7 +1437,7 @@ body {
   flex: none;
   order: 1;
   flex-grow: 1;
-  margin: 12px 0px;
+  margin: 12px 0.02px;
 }
 
 input[type="text"] {
